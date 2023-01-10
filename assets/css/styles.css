@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+  --first-color: hsl(231, 44%, 56%);
+  --first-color-alt: hsl(231, 44%, 51%);
+  --text-color: hsl(231, 12%, 98%);
+  --body-color: hsl(231, 100%, 94%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  background-color: var(--body-color);
+}
