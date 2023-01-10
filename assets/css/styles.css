@@ -48,8 +48,19 @@ body {
     var(--first-color-alt) 0.75rem,
     var(--first-color-alt) 1.5rem
   );
+  animation: load 1s infinite linear;
 }
 
 .button__text {
   position: relative;
+}
+
+@keyframes load {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-1.75rem);
+  }
 }
